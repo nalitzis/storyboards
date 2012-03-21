@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize testLabel = _testLabel;
 
 - (void)didReceiveMemoryWarning
 {
@@ -16,16 +17,29 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+
+#pragma mark IBAction
+
+- (IBAction)pressMeTapped:(id)sender {
+    NSLog(@"press me was tapped");
+}
+
+- (IBAction)changedTapped:(id)sender{
+    self.testLabel.text = [NSString stringWithFormat:@"Now %d and counting...", ++_i];
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _i = 0;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload
 {
+    [self setTestLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

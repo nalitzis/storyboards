@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ModalVC.h
 //  TestSingleView
 //
 //  Created by Ado on 21/03/12.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
-    int _i;
-}
-@property (weak, nonatomic) IBOutlet UILabel *testLabel;
+@interface ModalVC : UIViewController
 
 @end
