@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B3222B151A6DA1005D8D6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B3222A151A6DA1005D8D6D /* UIKit.framework */; };
+		58B3222D151A6DA1005D8D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B3222C151A6DA1005D8D6D /* Foundation.framework */; };
+		58B3222F151A6DA1005D8D6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B3222E151A6DA1005D8D6D /* CoreGraphics.framework */; };
+		58B32235151A6DA1005D8D6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58B32233151A6DA1005D8D6D /* InfoPlist.strings */; };
+		58B32237151A6DA1005D8D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B32236151A6DA1005D8D6D /* main.m */; };
+		58B3223B151A6DA1005D8D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B3223A151A6DA1005D8D6D /* AppDelegate.m */; };
+		58B3223E151A6DA1005D8D6D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B3223C151A6DA1005D8D6D /* MainStoryboard_iPhone.storyboard */; };
+		58B32241151A6DA1005D8D6D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B3223F151A6DA1005D8D6D /* MainStoryboard_iPad.storyboard */; };
+		58B32244151A6DA1005D8D6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B32243151A6DA1005D8D6D /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58B32226151A6DA1005D8D6D /* TestSingleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSingleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B3222A151A6DA1005D8D6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58B3222C151A6DA1005D8D6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58B3222E151A6DA1005D8D6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58B32232151A6DA1005D8D6D /* TestSingleView-Info.plist */ = {isa = PBXFileReference; path = "TestSingleView-Info.plist"; sourceTree = "<group>"; };
+		58B32234151A6DA1005D8D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58B32236151A6DA1005D8D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58B32238151A6DA1005D8D6D /* TestSingleView-Prefix.pch */ = {isa = PBXFileReference; path = "TestSingleView-Prefix.pch"; sourceTree = "<group>"; };
+		58B32239151A6DA1005D8D6D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		58B3223A151A6DA1005D8D6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58B3223D151A6DA1005D8D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		58B32240151A6DA1005D8D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		58B32242151A6DA1005D8D6D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		58B32243151A6DA1005D8D6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B32223151A6DA1005D8D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B3222B151A6DA1005D8D6D /* UIKit.framework in Frameworks */,
+				58B3222D151A6DA1005D8D6D /* Foundation.framework in Frameworks */,
+				58B3222F151A6DA1005D8D6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B3221B151A6DA0005D8D6D = {
+			isa = PBXGroup;
+			children = (
+				58B32230151A6DA1005D8D6D /* TestSingleView */,
+				58B32229151A6DA1005D8D6D /* Frameworks */,
+				58B32227151A6DA1005D8D6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B32227151A6DA1005D8D6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B32226151A6DA1005D8D6D /* TestSingleView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B32229151A6DA1005D8D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B3222A151A6DA1005D8D6D /* UIKit.framework */,
+				58B3222C151A6DA1005D8D6D /* Foundation.framework */,
+				58B3222E151A6DA1005D8D6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B32230151A6DA1005D8D6D /* TestSingleView */ = {
+			isa = PBXGroup;
+			children = (
+				58B32239151A6DA1005D8D6D /* AppDelegate.h */,
+				58B3223A151A6DA1005D8D6D /* AppDelegate.m */,
+				58B3223C151A6DA1005D8D6D /* MainStoryboard_iPhone.storyboard */,
+				58B3223F151A6DA1005D8D6D /* MainStoryboard_iPad.storyboard */,
+				58B32242151A6DA1005D8D6D /* ViewController.h */,
+				58B32243151A6DA1005D8D6D /* ViewController.m */,
+				58B32231151A6DA1005D8D6D /* Supporting Files */,
+			);
+			path = TestSingleView;
+			sourceTree = "<group>";
+		};
+		58B32231151A6DA1005D8D6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B32232151A6DA1005D8D6D /* TestSingleView-Info.plist */,
+				58B32233151A6DA1005D8D6D /* InfoPlist.strings */,
+				58B32236151A6DA1005D8D6D /* main.m */,
+				58B32238151A6DA1005D8D6D /* TestSingleView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B32225151A6DA1005D8D6D /* TestSingleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B32247151A6DA1005D8D6D /* Build configuration list for PBXNativeTarget "TestSingleView" */;
+			buildPhases = (
+				58B32222151A6DA1005D8D6D /* Sources */,
+				58B32223151A6DA1005D8D6D /* Frameworks */,
+				58B32224151A6DA1005D8D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSingleView;
+			productName = TestSingleView;
+			productReference = 58B32226151A6DA1005D8D6D /* TestSingleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B3221D151A6DA0005D8D6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 58B32220151A6DA1005D8D6D /* Build configuration list for PBXProject "TestSingleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B3221B151A6DA0005D8D6D;
+			productRefGroup = 58B32227151A6DA1005D8D6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B32225151A6DA1005D8D6D /* TestSingleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B32224151A6DA1005D8D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B32235151A6DA1005D8D6D /* InfoPlist.strings in Resources */,
+				58B3223E151A6DA1005D8D6D /* MainStoryboard_iPhone.storyboard in Resources */,
+				58B32241151A6DA1005D8D6D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B32222151A6DA1005D8D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B32237151A6DA1005D8D6D /* main.m in Sources */,
+				58B3223B151A6DA1005D8D6D /* AppDelegate.m in Sources */,
+				58B32244151A6DA1005D8D6D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B32233151A6DA1005D8D6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B32234151A6DA1005D8D6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58B3223C151A6DA1005D8D6D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B3223D151A6DA1005D8D6D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		58B3223F151A6DA1005D8D6D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B32240151A6DA1005D8D6D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B32245151A6DA1005D8D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58B32246151A6DA1005D8D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B32248151A6DA1005D8D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSingleView/TestSingleView-Prefix.pch";
+				INFOPLIST_FILE = "TestSingleView/TestSingleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58B32249151A6DA1005D8D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestSingleView/TestSingleView-Prefix.pch";
+				INFOPLIST_FILE = "TestSingleView/TestSingleView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B32220151A6DA1005D8D6D /* Build configuration list for PBXProject "TestSingleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B32245151A6DA1005D8D6D /* Debug */,
+				58B32246151A6DA1005D8D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B32247151A6DA1005D8D6D /* Build configuration list for PBXNativeTarget "TestSingleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B32248151A6DA1005D8D6D /* Debug */,
+				58B32249151A6DA1005D8D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B3221D151A6DA0005D8D6D /* Project object */;
+}
